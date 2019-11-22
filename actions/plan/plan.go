@@ -2,8 +2,8 @@ package plan
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/plan"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/plan"
 )
 
 func Create(params *plan.CreateRequestParams) chargebee.RequestObj {

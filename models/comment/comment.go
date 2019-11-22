@@ -1,9 +1,9 @@
 package comment
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	commentEnum "github.com/chargebee/chargebee-go/models/comment/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	commentEnum "github.com/pyntsociety/chargebee-go/models/comment/enum"
 )
 
 type Comment struct {

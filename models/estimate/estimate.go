@@ -1,11 +1,11 @@
 package estimate
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/models/creditnoteestimate"
-	"github.com/chargebee/chargebee-go/models/invoiceestimate"
-	"github.com/chargebee/chargebee-go/models/subscriptionestimate"
-	"github.com/chargebee/chargebee-go/models/unbilledcharge"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/models/creditnoteestimate"
+	"github.com/pyntsociety/chargebee-go/models/invoiceestimate"
+	"github.com/pyntsociety/chargebee-go/models/subscriptionestimate"
+	"github.com/pyntsociety/chargebee-go/models/unbilledcharge"
 )
 
 type Estimate struct {

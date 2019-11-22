@@ -2,8 +2,8 @@ package coupon
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/filter"
-	couponEnum "github.com/chargebee/chargebee-go/models/coupon/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	couponEnum "github.com/pyntsociety/chargebee-go/models/coupon/enum"
 )
 
 type Coupon struct {

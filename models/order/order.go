@@ -1,10 +1,10 @@
 package order
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	creditNoteEnum "github.com/chargebee/chargebee-go/models/creditnote/enum"
-	orderEnum "github.com/chargebee/chargebee-go/models/order/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	creditNoteEnum "github.com/pyntsociety/chargebee-go/models/creditnote/enum"
+	orderEnum "github.com/pyntsociety/chargebee-go/models/order/enum"
 )
 
 type Order struct {

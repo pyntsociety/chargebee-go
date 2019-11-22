@@ -1,9 +1,9 @@
 package tests
 
 import (
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/models/subscription"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/models/subscription"
 	"github.com/stretchr/testify/assert"
 	"net/url"
 	"testing"

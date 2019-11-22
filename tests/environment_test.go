@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/chargebee/chargebee-go"
+	"github.com/pyntsociety/chargebee-go"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

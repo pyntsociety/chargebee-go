@@ -1,8 +1,8 @@
 package invoiceestimate
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	invoiceEstimateEnum "github.com/chargebee/chargebee-go/models/invoiceestimate/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	invoiceEstimateEnum "github.com/pyntsociety/chargebee-go/models/invoiceestimate/enum"
 )
 
 type InvoiceEstimate struct {

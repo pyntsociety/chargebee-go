@@ -2,9 +2,9 @@ package customer
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	customerEnum "github.com/chargebee/chargebee-go/models/customer/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	customerEnum "github.com/pyntsociety/chargebee-go/models/customer/enum"
 )
 
 type Customer struct {

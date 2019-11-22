@@ -2,8 +2,8 @@ package promotionalcredit
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/promotionalcredit"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/promotionalcredit"
 )
 
 func Add(params *promotionalcredit.AddRequestParams) chargebee.RequestObj {

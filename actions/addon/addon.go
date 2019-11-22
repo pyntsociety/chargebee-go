@@ -2,8 +2,8 @@ package addon
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/addon"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/addon"
 )
 
 func Create(params *addon.CreateRequestParams) chargebee.RequestObj {

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/timemachine"
-	timeMachineEnum "github.com/chargebee/chargebee-go/models/timemachine/enum"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/timemachine"
+	timeMachineEnum "github.com/pyntsociety/chargebee-go/models/timemachine/enum"
 	"time"
 )
 

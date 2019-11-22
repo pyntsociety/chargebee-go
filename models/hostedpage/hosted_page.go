@@ -2,9 +2,9 @@ package hostedpage
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	hostedPageEnum "github.com/chargebee/chargebee-go/models/hostedpage/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	hostedPageEnum "github.com/pyntsociety/chargebee-go/models/hostedpage/enum"
 )
 
 type HostedPage struct {

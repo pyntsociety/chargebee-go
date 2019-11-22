@@ -2,8 +2,8 @@ package address
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/address"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/address"
 )
 
 func Retrieve(params *address.RetrieveRequestParams) chargebee.RequestObj {

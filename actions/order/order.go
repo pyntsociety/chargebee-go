@@ -2,8 +2,8 @@ package order
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/order"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/order"
 )
 
 func Create(params *order.CreateRequestParams) chargebee.RequestObj {

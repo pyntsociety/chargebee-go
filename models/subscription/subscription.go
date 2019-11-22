@@ -2,9 +2,9 @@ package subscription
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	subscriptionEnum "github.com/chargebee/chargebee-go/models/subscription/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	subscriptionEnum "github.com/pyntsociety/chargebee-go/models/subscription/enum"
 )
 
 type Subscription struct {
@@ -148,7 +148,7 @@ type CreateRequestParams struct {
 	CouponIds               []string                       `json:"coupon_ids,omitempty"`
 	Card                    *CreateCardParams              `json:"card,omitempty"`
 	BankAccount             *CreateBankAccountParams       `json:"bank_account,omitempty"`
-	TokenId                 string                         `json:"token_id,omitempty"`
+	PaymentSourceId         string                         `json:"payment_source_id,omitempty"`
 	PaymentMethod           *CreatePaymentMethodParams     `json:"payment_method,omitempty"`
 	PaymentIntent           *CreatePaymentIntentParams     `json:"payment_intent,omitempty"`
 	BillingAddress          *CreateBillingAddressParams    `json:"billing_address,omitempty"`
@@ -540,6 +540,7 @@ type UpdateRequestParams struct {
 	Reactivate              *bool                          `json:"reactivate,omitempty"`
 	Card                    *UpdateCardParams              `json:"card,omitempty"`
 	TokenId                 string                         `json:"token_id,omitempty"`
+	PaymentSourceId         string                         `json:"payment_source_id,omitempty"`
 	PaymentMethod           *UpdatePaymentMethodParams     `json:"payment_method,omitempty"`
 	PaymentIntent           *UpdatePaymentIntentParams     `json:"payment_intent,omitempty"`
 	BillingAddress          *UpdateBillingAddressParams    `json:"billing_address,omitempty"`

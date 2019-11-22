@@ -2,8 +2,8 @@ package card
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/card"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/card"
 )
 
 func Retrieve(id string) chargebee.RequestObj {

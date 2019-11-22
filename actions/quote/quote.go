@@ -2,8 +2,8 @@ package quote
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/quote"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/quote"
 )
 
 func Retrieve(id string) chargebee.RequestObj {

@@ -2,8 +2,8 @@ package coupon
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/coupon"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/coupon"
 )
 
 func Create(params *coupon.CreateRequestParams) chargebee.RequestObj {

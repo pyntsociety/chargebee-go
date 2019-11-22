@@ -3,8 +3,8 @@ package hostedpage
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/hostedpage"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/hostedpage"
 )
 
 func CheckoutNew(params *hostedpage.CheckoutNewRequestParams) chargebee.RequestObj {

@@ -2,8 +2,8 @@ package comment
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/comment"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/comment"
 )
 
 func Create(params *comment.CreateRequestParams) chargebee.RequestObj {

@@ -2,8 +2,8 @@ package gift
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/gift"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/gift"
 )
 
 func Create(params *gift.CreateRequestParams) chargebee.RequestObj {

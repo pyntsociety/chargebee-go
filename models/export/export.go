@@ -1,9 +1,9 @@
 package export
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	exportEnum "github.com/chargebee/chargebee-go/models/export/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	exportEnum "github.com/pyntsociety/chargebee-go/models/export/enum"
 )
 
 type Export struct {

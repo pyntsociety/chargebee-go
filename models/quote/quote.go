@@ -2,9 +2,9 @@ package quote
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	quoteEnum "github.com/chargebee/chargebee-go/models/quote/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	quoteEnum "github.com/pyntsociety/chargebee-go/models/quote/enum"
 )
 
 type Quote struct {

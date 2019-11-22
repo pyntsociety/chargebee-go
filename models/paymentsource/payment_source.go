@@ -1,9 +1,9 @@
 package paymentsource
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	paymentSourceEnum "github.com/chargebee/chargebee-go/models/paymentsource/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	"github.com/pyntsociety/chargebee-go/filter"
+	paymentSourceEnum "github.com/pyntsociety/chargebee-go/models/paymentsource/enum"
 )
 
 type PaymentSource struct {

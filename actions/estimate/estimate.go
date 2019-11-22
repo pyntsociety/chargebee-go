@@ -2,8 +2,8 @@ package estimate
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/estimate"
+	"github.com/pyntsociety/chargebee-go"
+	"github.com/pyntsociety/chargebee-go/models/estimate"
 )
 
 func CreateSubscription(params *estimate.CreateSubscriptionRequestParams) chargebee.RequestObj {

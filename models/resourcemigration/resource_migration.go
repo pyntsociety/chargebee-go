@@ -1,8 +1,8 @@
 package resourcemigration
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	resourceMigrationEnum "github.com/chargebee/chargebee-go/models/resourcemigration/enum"
+	"github.com/pyntsociety/chargebee-go/enum"
+	resourceMigrationEnum "github.com/pyntsociety/chargebee-go/models/resourcemigration/enum"
 )
 
 type ResourceMigration struct {
